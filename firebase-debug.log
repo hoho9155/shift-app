@@ -1,0 +1,33 @@
+[debug] [2023-01-05T06:24:14.270Z] ----------------------------------------------------------------------
+[debug] [2023-01-05T06:24:14.272Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\t\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create web beamcoda_jobs_partners_flutter (web) --json --project=shiftapp-c9064
+[debug] [2023-01-05T06:24:14.273Z] CLI Version:   11.19.0
+[debug] [2023-01-05T06:24:14.273Z] Platform:      win32
+[debug] [2023-01-05T06:24:14.273Z] Node Version:  v18.8.0
+[debug] [2023-01-05T06:24:14.274Z] Time:          Wed Jan 04 2023 22:24:14 GMT-0800 (Pacific Standard Time)
+[debug] [2023-01-05T06:24:14.274Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-05T06:24:14.283Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-05T06:24:14.283Z] > authorizing via signed-in user (shiftapp@driversonlymn.com)
+[info] Create your WEB app in project shiftapp-c9064:
+[debug] [2023-01-05T06:24:14.288Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/shiftapp-c9064/webApps [none]
+[debug] [2023-01-05T06:24:14.288Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/shiftapp-c9064/webApps {"displayName":"beamcoda_jobs_partners_flutter (web)"}
+[debug] [2023-01-05T06:24:17.660Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/shiftapp-c9064/webApps 200
+[debug] [2023-01-05T06:24:17.661Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/shiftapp-c9064/webApps {"name":"operations/projects/shiftapp-c9064/apps/OGUxOTFmNTMtZjAzNS00ZDdhLWFjYWYtZjA4NDU5NTdjZDkz"}
+[debug] [2023-01-05T06:24:17.662Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/projects/shiftapp-c9064/apps/OGUxOTFmNTMtZjAzNS00ZDdhLWFjYWYtZjA4NDU5NTdjZDkz [none]
+[debug] [2023-01-05T06:24:20.211Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/projects/shiftapp-c9064/apps/OGUxOTFmNTMtZjAzNS00ZDdhLWFjYWYtZjA4NDU5NTdjZDkz 200
+[debug] [2023-01-05T06:24:20.212Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/projects/shiftapp-c9064/apps/OGUxOTFmNTMtZjAzNS00ZDdhLWFjYWYtZjA4NDU5NTdjZDkz {"name":"operations/projects/shiftapp-c9064/apps/OGUxOTFmNTMtZjAzNS00ZDdhLWFjYWYtZjA4NDU5NTdjZDkz","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.WebApp","name":"projects/shiftapp-c9064/webApps/1:252307441499:web:c9032b4ba964089e6a7c7e","appId":"1:252307441499:web:c9032b4ba964089e6a7c7e","displayName":"beamcoda_jobs_partners_flutter (web)","projectId":"shiftapp-c9064","webId":"ZTc3OGQ3NzQtN2M1MS00ZDI1LWI4YTgtNWRkYTZjM2I3YmEx","state":"ACTIVE","etag":"1_78663342-b545-4de6-9e1d-b8223d730941"}}
+[info] 
+[info] 🎉🎉🎉 Your Firebase WEB App is ready! 🎉🎉🎉
+[info] 
+[info] App information:
+[info]   - App ID: 1:252307441499:web:c9032b4ba964089e6a7c7e
+[info]   - Display name: beamcoda_jobs_partners_flutter (web)
+[info] 
+[info] You can run this command to print out your new app's Google Services config:
+[info]   firebase apps:sdkconfig WEB 1:252307441499:web:c9032b4ba964089e6a7c7e
+[debug] [2023-01-05T06:24:27.377Z] Error: Timed out.
+    at Timeout.<anonymous> (C:\Users\t\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
